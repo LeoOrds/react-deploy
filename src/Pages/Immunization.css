@@ -1,0 +1,74 @@
+.hero_immun{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100%;
+    padding-top: 2vw;
+    height: 25vw;
+  }
+  .title_immun{
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left:40%;
+    transform: translate(-35%, -80%);
+    color: rgba(133, 187, 218, 0.911);
+    font-size: 8vw;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+  }
+  .vaccine_title_immun{
+    font-family: 'Playfair Display', serif;
+    font-size: 6vh;
+    font-weight: bold;
+    margin-top: 4vw;
+  }
+  .vaccine_subtitle_immun{
+    font-family: 'Playfair Display', serif;
+    font-size: 4vh;
+    font-weight: bold;
+  }
+  .vaccine_desc_immun{
+    font-family: 'Playfair Display', serif;
+    font-size: 2vh;
+    line-height: 1.5;
+  }
+  .immunization_img1_immun{
+    width: 80%;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 4vw;
+  }
+  .appointment_button_immun{
+    padding: 5px 8px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5vw;
+    background-color: #0d6efd;
+    color: white;
+    box-shadow: 1px 1px 5px #000000;
+    }
+    .appointment_button_immun:hover{
+      background-color: white;
+      color: #0d6efd;
+    }
+    .appointment_button2_immun{
+    padding: 5px 8px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5vw;
+    background-color: #0d6efd;
+    color: white;
+    box-shadow: 1px 1px 5px #000000;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    }
+    .appointment_button2_immun:hover{
+      background-color: white;
+      color: #0d6efd;
+    }

@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Navbar from "./Components/Navbar"
+import Home from "./Pages/Home"
+import Wellness from "./Pages/Wellness"
+import Faqs from "./Pages/Faqs"
+import About from "./Pages/About"
+import Reqapp from "./Pages/Reqapp"
+import Signup from "./Pages/Signup"
+import Login from "./Pages/Login"
+import Patientos from "./Pages/Patientos"
+import Footer from "./Components/Footer"
+import Birthingclinic from "./Pages/Birthingclinic"
+import Immunization from "./Pages/Immunization"
+import Familiplanning from "./Pages/Familiplanning"
+import Medfam from "./Pages/Medfam"
+import Services from "./Pages/Sidebar/Services"
+import { Route, Routes } from "react-router-dom"
+
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+  return( 
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Navbar />
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/Wellness" element={<Wellness/>}/>
+          <Route path="/Faqs" element={<Faqs/>}/>
+          <Route path="/About" element={<About/>}/>
+          <Route path="/Reqapp" element={<Reqapp/>}/>
+          <Route path="/Signup" element={<Signup/>}/>
+          <Route path="/Login" element={<Login/>}/>
+          <Route path="/Patientos" element={<Patientos/>}/>
+          <Route path="/Birthingclinic" element={<Birthingclinic/>}/>
+          <Route path="/Immunization" element={<Immunization/>}/>
+          <Route path="/Familiplanning" element={<Familiplanning/>}/>
+          <Route path="/Medfam" element={<Medfam/>}/>
+          <Route path="/Birthingclinic" element={<Birthingclinic/>}/>
+        </Routes>
+        <Footer />
     </>
-  )
+      
+  );
 }
 
-export default App
+
+export default App;

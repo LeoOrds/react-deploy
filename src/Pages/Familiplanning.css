@@ -1,0 +1,81 @@
+.hero_familplan{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100%;
+    padding-top: 2vw;
+    height: 25vw;
+  }
+  .title_familplan{
+    text-align: center;
+    position: absolute;
+    top: 44%;
+    left:20%;
+    transform: translate(-35%, -80%);
+    color: rgba(255, 255, 255, 0.911);
+    font-size: 6vw;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+  }
+  .vaccine_title_familplan{
+    font-family: 'Playfair Display', serif;
+    font-size: 6vh;
+    font-weight: bold;
+    margin-top: 4vw;
+  }
+  .vaccine_subtitle_familplan{
+    font-family: 'Playfair Display', serif;
+    font-size: 4vh;
+    font-weight: bold;
+  }
+  .vaccine_desc_familplan{
+    font-family: 'Playfair Display', serif;
+    font-size: 2vh;
+    line-height: 1.5;
+  }
+  .immunization_img1_familplan{
+    width: 80%;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 4vw;
+  }
+  .appointment_button_familplan{
+    padding: 5px 8px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5vw;
+    background-color: #0d6efd;
+    color: white;
+    box-shadow: 1px 1px 5px #000000;
+    }
+    .appointment_button_familplan:hover{
+      background-color: white;
+      color: #0d6efd;
+    }
+    .appointment_button2_familplan{
+    padding: 5px 8px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5vw;
+    background-color: #0d6efd;
+    color: white;
+    box-shadow: 1px 1px 5px #000000;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    }
+    .appointment_button2_familplan:hover{
+      background-color: white;
+      color: #0d6efd;
+    }
+  
+    .famplan_img_familplan{
+      width: 60%;
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+    }

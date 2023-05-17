@@ -1,0 +1,73 @@
+.cont_loging  {
+    background-image: url(/images/patientportal.jpg);
+    height: 190vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+  }
+  @media screen and (min-width: 900px) {
+    .cont_loging {
+      height: 150vh;
+    }
+  }
+  
+  .logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+  }
+  .container_login{
+    margin-top: 3vh;
+  }
+  .title_login{
+    text-align: center;
+    font-size: 2vh;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 3vh;
+  }
+  .button_signin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20vh;
+    padding: 5px 8px;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    font-size: 3vh;
+    background-color: #0d6efd;
+    color: white;
+    box-shadow: 1px 1px 5px #000000;
+    margin-top: 4vh;
+    font-family: 'Playfair Display', serif;
+  }
+  .button_signin:hover{
+    background-color: white;
+    color: #0d6efd;
+    border-width: 1px;
+  }
+  .box_loging{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.596);
+  }
+
+  .privacy_desc{
+    font-size: 1.5vh;
+    margin-left: 5vh;
+    margin-right: 4vh;
+    margin-top: 3vh;
+    line-height: 2.5;
+    font-family: 'Playfair Display', serif;
+  }
+  .privacy_notice{
+    font-size: 2vh;
+    font-family: 'Playfair Display', serif;
+    padding-left: 3vw;
+  }

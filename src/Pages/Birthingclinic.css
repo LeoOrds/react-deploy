@@ -1,0 +1,65 @@
+.birthingcare_container{
+  margin-bottom: 3vw;
+}
+.birthingcare_hero{
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 100%;
+  padding-top: 3vw;
+  height: 20vw;
+}
+.birth_img{
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  width: 60%;
+}
+.title{
+  font-family: 'Playfair Display', serif;
+  font-size: 6vh;
+  font-weight: bold;
+  margin-top: 4vw;
+}
+.subtitle{
+  font-family: 'Playfair Display', serif;
+  font-size: 4vh;
+  font-weight: bold;
+  margin-top: 2vw;
+}
+.desc{
+  font-family: 'Playfair Display', serif;
+  font-size: 2vh;
+  line-height: 1.5;
+}
+.appointment_button{
+  padding: 5px 8px;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5vw;
+  background-color: #0d6efd;
+  color: white;
+  box-shadow: 1px 1px 5px #000000;
+  }
+  .appointment_button:hover{
+    background-color: white;
+    color: #0d6efd;
+  }
+  .appointment_button2{
+  padding: 5px 8px;
+  color: black;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.5vw;
+  background-color: #0d6efd;
+  color: white;
+  box-shadow: 1px 1px 5px #000000;
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+  }
+  .appointment_button2:hover{
+    background-color: white;
+    color: #0d6efd;
+  }
